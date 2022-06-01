@@ -20,8 +20,4 @@ app.use(cors(process.env.CORS_DOMAINS ?? '*'));
 
 app.use(router);
 
-app.get('/', (req, res) => {
-	res.send('APP IS RUNNING ');
-	});
-
 module.exports = app;
