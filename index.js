@@ -8,7 +8,3 @@ const port = process.env.PORT || 5000;
 app.listen(port, () => {
   debug(`Server started on http://localhost:${port}`);
 });
-
-app.get('/', (req, res) => {
-res.send('APP IS RUNNING ');
-});
